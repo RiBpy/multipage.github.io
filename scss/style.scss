@@ -1,0 +1,249 @@
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+.navbar{
+    background: #000;
+    .top{
+        text-decoration:none;
+        font-family:Bradley Hand ITC;
+    }
+    .top:hover{
+        color:$purple;
+    }
+    .navbar-nav{
+        font-family:Castellar;
+    }
+    button:hover{
+        box-shadow:3px 3px 10px $pink;
+    }
+}
+#slide{
+   h2{
+       color:#fff
+   }
+}
+.carousel-item{
+    min-height:400px;
+}
+.carousel-img-1{
+    background:url(../img/bulbBlack.jpg);
+    background-size:cover;
+    background-position-y:center;
+    min-height:400px;
+}
+.carousel-img-2{
+    background:url(../img/bulbbig.jpg);
+    background-size:cover;
+    background-position:bottom;
+    min-height:400px;
+}
+.carousel-img-3{
+    background:url(../img/bulb3.jpg);
+    background-size:cover;
+    background-position:center;
+    min-height:400px;
+}
+.carousel-img-4{
+    background:url(../img/bulb2.jpg);
+    background-size:cover;
+    background-position:center;
+    min-height:400px;
+}
+#homeicon{
+
+    background-size:cover;
+    .fa{
+       font-size:50px;
+    }
+}
+#getstarted{
+    background:url(../img/road.jpg) no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    min-height:300px;
+    .dark-overlay{
+        background:rgba(0,0,0,.7);
+        min-height:300px;
+    }
+    .fa{
+        font-size:50px;
+    }
+}
+#home-pic{
+    img{
+        transition:all .3s ease;
+    }
+    img:hover{
+        transform:scale(1.2);
+    }
+}
+#home-video{
+    background:url(../img/colorlight.jpg);
+    background-attachment:fixed;
+    background-position:center;
+    background-size:cover;
+    .fa{
+        font-size:50px;
+        color:red;
+    }
+    .dark-overlay{
+        background:rgba(0,0,0,.7);
+    }
+}
+#gallery{
+    img{
+        min-height:280px;
+        transition:all .3s ease;
+    }
+    img:hover{
+        transform:scale(1.1);
+    }
+}
+#home-signup{
+    background: #000;
+    .fa{
+        font-size:40px;
+    }
+}
+#footer{
+    #social-share{
+        text-decoration:none; 
+    }
+    .fa{
+        font-size:35px;  
+        padding:5px;
+    }
+    .fa:hover{
+  text-shadow: 0 0 10px #dc3545 , 0 0 15px #dc3545,0 0 15px #17a2b8 ,0 0 25px #ff0000;
+    }
+
+}
+#about-head{
+    background:url(../img/mount1.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position-y:center;
+    background-size:cover;
+    .dark-overlay{
+        background: rgba(0,0,0,.7);
+    }
+}
+#what-we-do{
+        img{
+            height:250px;
+            width:250px;
+        }
+}
+#about-icon{
+    background:url(../img/flower.png) no-repeat;
+    background-attachment: fixed;
+    background-position-y:center;
+    background-size:cover;
+    .dark-overlay{
+        background:rgba(46,56,10,.7);
+    }
+    h4{
+        color:#fff;
+    }
+    .fa{
+        font-size:35px;
+    }
+    .box-1{
+        background:$teal;
+        opacity:.7;
+    }
+    .box-2{
+        background: $cyan;
+        opacity:.7;
+    }
+    .box-3{
+        background: $purple;
+        opacity:.7;
+    }
+    .box-4{
+        background: $yellow;
+        opacity:.7;
+    }
+    .box-5{
+        background: #000;
+        opacity:.7;
+    }
+    .box-6{
+        background: $blue;
+        opacity:.7;
+    }
+}
+#testimonial{
+.slider{
+    background:#ffb;
+}
+.slick-prev::before{
+     color:#000;
+    }
+
+.slick-next::before{
+     color:#000;
+     font-weight:bold;
+    }
+}
+#services-header{
+    background:url(../img/mount2.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position:bottom;
+    background-size:cover;
+    .dark-overlay{
+        background: rgba(0,0,0,.7);
+    }
+}
+#accordion{
+    background:url(../img/bulb3.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position-y:center;
+    background-size:cover;
+    .dark-overlay{
+        background: rgba(0,0,0,.7);
+    }
+}
+#blog-header{
+    background:url(../img/nightSky.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position-y:center;
+    background-size:cover;
+    .dark-overlay{
+        background: rgba(0,0,0,.7);
+    }
+}
+#blog-post{
+    .card{
+        box-shadow: 2px 2px 2px 2px black,4px 4px 4px 4px rgba(0,0,0,.7),2px 2px 2px 2px black;
+    }
+    
+    img{
+     height:400px;
+    }
+
+}
+#contact{
+    background: #223333;
+    h3,h4,h5{
+        color:#fff;
+    }
+    .fullForm,.Address{
+        background: #000;
+        box-shadow: 7px 7px 10px $teal, 15px 15px 15px #000;
+    }
+}
+@media (max-width:767px){
+       .carousel-item{
+           h2{
+               font-size:2.5rem;
+           }
+       }
+}

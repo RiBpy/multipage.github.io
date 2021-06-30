@@ -1,0 +1,191 @@
+.navbar {
+  background: #000; }
+  .navbar .top {
+    text-decoration: none;
+    font-family: Bradley Hand ITC; }
+  .navbar .top:hover {
+    color: #6f42c1; }
+  .navbar .navbar-nav {
+    font-family: Castellar; }
+  .navbar button:hover {
+    box-shadow: 3px 3px 10px #e83e8c; }
+
+#slide h2 {
+  color: #fff; }
+
+.carousel-item {
+  min-height: 400px; }
+
+.carousel-img-1 {
+  background: url(../img/bulbBlack.jpg);
+  background-size: cover;
+  background-position-y: center;
+  min-height: 400px; }
+
+.carousel-img-2 {
+  background: url(../img/bulbbig.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 400px; }
+
+.carousel-img-3 {
+  background: url(../img/bulb3.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 400px; }
+
+.carousel-img-4 {
+  background: url(../img/bulb2.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 400px; }
+
+#homeicon {
+  background-size: cover; }
+  #homeicon .fa {
+    font-size: 50px; }
+
+#getstarted {
+  background: url(../img/road.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 300px; }
+  #getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 300px; }
+  #getstarted .fa {
+    font-size: 50px; }
+
+#home-pic img {
+  transition: all .3s ease; }
+
+#home-pic img:hover {
+  transform: scale(1.2); }
+
+#home-video {
+  background: url(../img/colorlight.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; }
+  #home-video .fa {
+    font-size: 50px;
+    color: red; }
+  #home-video .dark-overlay {
+    background: rgba(0, 0, 0, 0.7); }
+
+#gallery img {
+  min-height: 280px;
+  transition: all .3s ease; }
+
+#gallery img:hover {
+  transform: scale(1.1); }
+
+#home-signup {
+  background: #000; }
+  #home-signup .fa {
+    font-size: 40px; }
+
+#footer #social-share {
+  text-decoration: none; }
+
+#footer .fa {
+  font-size: 35px;
+  padding: 5px; }
+
+#footer .fa:hover {
+  text-shadow: 0 0 10px #dc3545 , 0 0 15px #dc3545,0 0 15px #17a2b8 ,0 0 25px #ff0000; }
+
+#about-head {
+  background: url(../img/mount1.jpg) no-repeat;
+  background-attachment: fixed;
+  background-position-y: center;
+  background-size: cover; }
+  #about-head .dark-overlay {
+    background: rgba(0, 0, 0, 0.7); }
+
+#what-we-do img {
+  height: 250px;
+  width: 250px; }
+
+#about-icon {
+  background: url(../img/flower.png) no-repeat;
+  background-attachment: fixed;
+  background-position-y: center;
+  background-size: cover; }
+  #about-icon .dark-overlay {
+    background: rgba(46, 56, 10, 0.7); }
+  #about-icon h4 {
+    color: #fff; }
+  #about-icon .fa {
+    font-size: 35px; }
+  #about-icon .box-1 {
+    background: #20c997;
+    opacity: .7; }
+  #about-icon .box-2 {
+    background: #17a2b8;
+    opacity: .7; }
+  #about-icon .box-3 {
+    background: #6f42c1;
+    opacity: .7; }
+  #about-icon .box-4 {
+    background: #ffc107;
+    opacity: .7; }
+  #about-icon .box-5 {
+    background: #000;
+    opacity: .7; }
+  #about-icon .box-6 {
+    background: #007bff;
+    opacity: .7; }
+
+#testimonial .slider {
+  background: #ffb; }
+
+#testimonial .slick-prev::before {
+  color: #000; }
+
+#testimonial .slick-next::before {
+  color: #000;
+  font-weight: bold; }
+
+#services-header {
+  background: url(../img/mount2.jpg) no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover; }
+  #services-header .dark-overlay {
+    background: rgba(0, 0, 0, 0.7); }
+
+#accordion {
+  background: url(../img/bulb3.jpg) no-repeat;
+  background-attachment: fixed;
+  background-position-y: center;
+  background-size: cover; }
+  #accordion .dark-overlay {
+    background: rgba(0, 0, 0, 0.7); }
+
+#blog-header {
+  background: url(../img/nightSky.jpg) no-repeat;
+  background-attachment: fixed;
+  background-position-y: center;
+  background-size: cover; }
+  #blog-header .dark-overlay {
+    background: rgba(0, 0, 0, 0.7); }
+
+#blog-post .card {
+  box-shadow: 2px 2px 2px 2px black, 4px 4px 4px 4px rgba(0, 0, 0, 0.7), 2px 2px 2px 2px black; }
+
+#blog-post img {
+  height: 400px; }
+
+#contact {
+  background: #223333; }
+  #contact h3, #contact h4, #contact h5 {
+    color: #fff; }
+  #contact .fullForm, #contact .Address {
+    background: #000;
+    box-shadow: 7px 7px 10px #20c997, 15px 15px 15px #000; }
+
+@media (max-width: 767px) {
+  .carousel-item h2 {
+    font-size: 2.5rem; } }
